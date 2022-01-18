@@ -22,45 +22,8 @@
 
 /* C++ detection */
 #ifdef __cplusplus
-    extern C {
+    extern "C" {
 #endif
-
-// The SSD1306 OLED display C library is a flexible and portable driver
-// library designed to be deployed on possibly any microcontroller.
-// The library has been designed to provide a robust api and function
-// status codes are percolated up to the caller to ease debug activities.
-// The library can drive 128x64 OLED displays. Its internal architecture
-// decouples the library code from the HAL code to manage the i2c communication.
-// The user can modify the ssd1306_config.c file to reshape the way in which
-// the library deals with existing code that handles the i2c peripheral
-// of the selected microcontroller.
-//
-// Complex drawing functions are offered by this api.
-// <list of implemented functions>.
-//
-// The driver can manage both multiple displays on the same i2c bus
-// (given the fact they have different addresses) and on different i2c
-// peripheral. The user can assign a fictious 'channel' number to any
-// peripheral and reshape the config file as desired (see the embedded
-// documentation in the ssd1306_config.c file).
-//
-// The library can be easily integrated in C++ code because it is
-// ready to avoid name mangling.
-//
-// The user is required to adapt the ssd1306_config.c file as needed,
-// call the ssd1306_init function to initialize the target display and
-// that's it. Moreover each drawing function (identified by the keyword
-// *_draw_*) must be followed by an ssd1306_update call if you want
-// your changes to appear on the display. This allows to draw in the
-// internal software buffer many things and flush them to the hardware
-// all at the same time.
-//
-// Tested on ST microcontrollers using STCubeIDE and ST HAL.
-// Tested on Arduino Uno?
-
-
-// TODO: multiple cmd byte function?
-// TODO: convert tab in spaces.
 
 
 #include <stdint.h>  // for uint_t.
