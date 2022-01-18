@@ -17,6 +17,11 @@
  * @author Giovanni Scotti
  */
 
+/* C++ detection */
+#ifdef __cplusplus
+    extern "C" {
+#endif
+
 ///////////////////////////////////////////////////////////
 // SSD1306 OLED display C library CONFIGURATION FILE!
 //
@@ -74,3 +79,8 @@ ssd1306_i2c_write(uint8_t channel, uint8_t addr,
 
     return SSD1306_OK;
 }
+
+/* C++ detection */
+#ifdef __cplusplus
+    }
+#endif

@@ -23,8 +23,8 @@
 
 
 // Macros to shrink the library.
-//#define ENABLE_FONT_11X18 /// Uncomment to enable 11x18 font.
-//#define ENABLE_FONT_16X26 /// Uncomment to enable 16x26 font.
+#define ENABLE_FONT_11X18 /// Uncomment to enable 11x18 font.
+#define ENABLE_FONT_16X26 /// Uncomment to enable 16x26 font.
 
 
 // Fonts are supposed to be considered as singletons.
