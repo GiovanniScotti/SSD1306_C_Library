@@ -46,7 +46,6 @@ void i2c_write_arduino(uint8_t addr, const uint8_t *data_ptr, size_t data_size) 
         Wire.write(data_ptr[0]);
         Wire.write(data_ptr + proc_bytes, chunk_size);
         Wire.endTransmission();
-        Wire.end();
 
         proc_bytes += chunk_size;
     }
