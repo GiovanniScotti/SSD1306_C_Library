@@ -87,5 +87,4 @@ in order to enable them.
 | STM32           | :white_check_mark: |                        |                           |
 | ATMega328       |                    | :white_check_mark:     | All fonts disabled due to high memory footprint.
 | ATMega2560      | :white_check_mark: |                        |                           |
-| ESP8266         |                    |                        |                           |
-| ESP32           |                    |                        |                           |
+| ESP8266         | :white_check_mark: |                        |                           |
