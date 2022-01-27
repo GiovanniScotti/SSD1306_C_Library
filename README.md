@@ -42,7 +42,7 @@ functionalities.
 
 ### Basic functionalities
 * display on/off
-* set contrast/inversion/scrolling
+* set contrast/color inversion/scrolling
 * cursor positioning
 * draw single pixel
 * clear display
@@ -82,9 +82,11 @@ in order to enable them.
 ```
 
 ## Compatibility
+This is a list of tested microcontrollers.
+
 | Microcontroller | Works              | Partially works        | Notes                     |
 | --------------- | :----------------: | :--------------------: | ------------------------- |
 | STM32           | :white_check_mark: |                        |                           |
-| ATMega328       |                    | :white_check_mark:     | All fonts disabled due to high memory footprint.
+| ATMega328       |                    | :white_check_mark:     | All fonts disabled due to high memory footprint. |
 | ATMega2560      | :white_check_mark: |                        |                           |
 | ESP8266         | :white_check_mark: |                        |                           |
